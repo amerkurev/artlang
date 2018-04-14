@@ -5,12 +5,13 @@ hidden = true
 menu = "main"
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ullam earum dolorum! Sed, perspiciatis.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+<h3 style="text-align: center;">Hi, my name is Andrey. This Is My Blog</h3>
 
-***
-
-### Lorem ipsum dolor.
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dicta corporis ad inventore itaque impedit dolor atque amet exercitationem! Veniam qui voluptas maiores vel laudantium necessitatibus, velit ducimus! Iste hic facere, accusamus fugiat enim facilis.
+<p style="text-align: center;">
+I'm a Senior Software Engineer (C++/Python). I reside in Moscow.<br>
+In my free time I write articles on programming.
+<br>
+<br>
+Email: <a href="mailto:a-merkurev@mail.ru">a-merkurev@mail.ru</a>
+</p>
