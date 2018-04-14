@@ -38,12 +38,12 @@ public:
     typedef T value_type;
     
     typedef value_type *pointer;
-	typedef const value_type *const_pointer
+    typedef const value_type *const_pointer
         
     typedef size_t size_type;
     
     pointer allocate(size_type _Count)  // Выделяем память для _Count элементов
-    {	                                // типа value_type  
+    {                                   // типа value_type  
         void *_Ptr = 0;
 
         if (_Count == 0)  // Если ничего не запросили, то ничего и не делаем
@@ -51,13 +51,13 @@ public:
         else if (((size_t)(-1) / sizeof (value_type) < _Count)
             || (_Ptr = ::operator new(_Count * sizeof (value_type))) == 0)
         {
-            throw bad_alloc();	// Выделение памяти не удалось
-        }	
+            throw bad_alloc();  // Выделение памяти не удалось
+        }   
         return ((pointer)_Ptr);
     }
     
     void deallocate(pointer _Ptr, size_type)
-    {	
+    {   
         ::operator delete(_Ptr);  // Освобождение памяти
     }
     
@@ -71,17 +71,17 @@ public:
 class Foo
 {
 public: 
-	Foo() {}
+    Foo() {}
 };
 
 int main(int argc, char** argv) 
 {
     // Вот так мы все привыкли создавать объект в "куче":
-	Foo *foo1 = new Foo(); // Выделение памяти + Вызов конструктора
+    Foo *foo1 = new Foo(); // Выделение памяти + Вызов конструктора
 
     // А вот какие вызовы происходят на самом деле:
-	void *ptr = operator new(sizeof(Foo)); // Выделение памяти
-	Foo *foo2 = ::new (ptr) Foo(); // Вызов конструктора, синтаксис размещения
+    void *ptr = operator new(sizeof(Foo)); // Выделение памяти
+    Foo *foo2 = ::new (ptr) Foo(); // Вызов конструктора, синтаксис размещения
     
     return 0;
 }
@@ -104,29 +104,29 @@ end = first + _Capacity; // Граница выделенного участка
 Посмотрите теперь, как лаконично и кратко реализуются некоторые функции-члены вектора:
 ```
 size_t capacity() const
-{	// return current length of allocated storage
+{   // return current length of allocated storage
     return (end - first);
 }
 
 size_t size() const
-{	// return length of sequence
+{   // return length of sequence
     return (last - first);
 }
 
 bool empty() const
-{	// test if sequence is empty
+{   // test if sequence is empty
     return (first == last);
 }
 
 const_reference at(size_t pos) const
-{	// subscript nonmutable sequence with checking
+{   // subscript nonmutable sequence with checking
     if (last - first <= pos) throw out_of_range();
     
     return (*(first + pos));
 }
 
 const_reference operator[](size_t pos) const
-{	// subscript nonmutable sequence
+{   // subscript nonmutable sequence
     return (*(first + pos));
 }
 // Сплошная арифметика указателей...
@@ -134,9 +134,9 @@ const_reference operator[](size_t pos) const
 Когда программист добавляет в конец вектора новый элемент происходит примерно следующее:
 ```
 void push_back(const value_type& val)
-{	// insert element at end
+{   // insert element at end
     
-    if (last == end) {	    
+    if (last == end) {      
     // Если память закончилась, 
     // то нужно запросить новую область, больше предыдущей    
         
@@ -149,7 +149,7 @@ void push_back(const value_type& val)
         if (max_size() - _Capacity / 2 < _Capacity) {
             
             // новая область больше на 50% предыдущей
-            _Capacity = _Capacity + _Capacity / 2;	
+            _Capacity = _Capacity + _Capacity / 2;  
         }
         
         if (_Capacity < size() + 1)  {
@@ -192,19 +192,19 @@ class Foo
 {
 public: 
     
-	explicit Foo(long long) {}
+    explicit Foo(long long) {}
     Foo(const Foo&) {}
-	~Foo() {}
+    ~Foo() {}
 };
 
 
 int main(int argc, char** argv) 
 {
-	std::vector<Foo> vec;
+    std::vector<Foo> vec;
 
-	for (long long ii = 0; ii < 1000000; ++ii) {
-		vec.push_back(Foo(ii));
-	}
+    for (long long ii = 0; ii < 1000000; ++ii) {
+        vec.push_back(Foo(ii));
+    }
     return 0;
 }
 ```
