@@ -5,7 +5,7 @@ title: "Взятие адреса в C++, так ли это просто?"
 publishDate: 2014-10-21T23:53:00+03:00
 date: 2014-10-21T23:53:00+03:00
 draft: false
-tag: "c++, "
+tag: "c++, sizeof, addressof, stl"
 oldLink: "/article/view/2/"
 ---
 
