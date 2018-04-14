@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "http://artlang.net/"
 languageCode = "ru-ru"
-title = "Статьи о программировании"
+title = "Artlang: Programming Blog"
 theme = "cactus"
 
 # Enter your tracking code to enable Google Analytics
@@ -12,7 +12,7 @@ googleAnalytics = ""
 
 [params]
 	name = "Artlang"
-	description = "Блог программиста: статьи о программировании, проекты, about, контакты"
+	description = "Artlang: Programming Blog. Articles, projects, about, contacts"
 	bio = "Programming Blog"
 	enableRSS = true
 
