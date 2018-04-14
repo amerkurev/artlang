@@ -8,12 +8,12 @@ theme = "cactus"
 googleAnalytics = ""
 
 # Disable comments by leaving disqusShortname empty
-disqusShortname = "artlangnet"
+# disqusShortname = "artlangnet"
 
 [params]
-	name = "Andrey M"
+	name = "Artlang"
 	description = "Блог программиста: статьи о программировании, проекты, about, контакты"
-	bio = "Programmer"
+	bio = "Programming Blog"
 	enableRSS = true
 
 	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
@@ -32,10 +32,10 @@ disqusShortname = "artlangnet"
 	olderPosts = ""
 	newerPosts = ""
 	readMore = ""
-	copyright = "Some rights reserved, 2018 - <a href='/about'>Andrey M</a> - Powered by <a href='https://gohugo.io'>Hugo</a>"
+	copyright = "Some rights reserved, 2018 - <a href='/about'>Artlang</a> - Powered by <a href='https://gohugo.io'>Hugo</a>"
 
 	# Sharing options and author information in posts
-	aboutAuthor = "I'm an blogger."
+	aboutAuthor = "Programming Blog"
 	tweet = ""
 	share = ""
 
