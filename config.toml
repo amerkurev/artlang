@@ -34,7 +34,7 @@ googleAnalytics = ""
 	olderPosts = ""
 	newerPosts = ""
 	readMore = ""
-	copyright = "Some rights reserved, 2018 - <a href='/'>Artlang</a> - Powered by <a href='https://gohugo.io'>Hugo</a>"
+	copyright = "2018 - <a href='/'>Artlang</a> - Powered by <a href='https://gohugo.io'>Hugo</a>"
 
 	# Sharing options and author information in posts
 	aboutAuthor = "Programming Blog"
