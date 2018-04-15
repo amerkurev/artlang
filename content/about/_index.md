@@ -13,5 +13,5 @@ I'm a Senior Software Engineer (C++/Python). I reside in Moscow.<br>
 In my free time I write articles on programming.
 <br>
 <br>
-Email: <a href="mailto:a-merkurev@mail.ru">a-merkurev@mail.ru</a>
+Email: <a href="mailto:me@artlang.net">me@artlang.net</a>
 </p>
