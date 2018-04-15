@@ -16,6 +16,7 @@ googleAnalytics = ""
 	description = "Artlang: Programming Blog. Articles, projects, about, contacts"
 	bio = "Programming Blog"
 	enableRSS = true
+	gitHub = "https://github.com/amerkurev/artlang"
 
 	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
 	# linking local files with their path relative to the static folder, e.g. "css/styles.css"
