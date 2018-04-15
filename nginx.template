@@ -23,7 +23,7 @@ server {
     ssl_certificate_key {{ ssl_private_key }};
 
     server_name www.artlang.net;
-    return      301 https://artlang.net$request_uri;
+    return 301 https://artlang.net$request_uri;
 }
 
 
