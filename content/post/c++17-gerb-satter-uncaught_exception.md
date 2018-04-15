@@ -1,6 +1,6 @@
 ---
 author: "Andrey Merkurev"
-linktitle: "C++17: Герб Саттер и \"бесполезная\" функция uncaught_exception"
+linktitle: "Герб Саттер и \"бесполезная\" функция uncaught_exception"
 title: "C++17: Герб Саттер и \"бесполезная\" функция uncaught_exception"
 publishDate: 2015-04-07T00:25:00+03:00
 date: 2015-04-07T00:25:00+03:00

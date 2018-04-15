@@ -1,6 +1,6 @@
 ---
 author: "Andrey Merkurev"
-linktitle: "Контейнер ссылок в C++ или зачем нужен std::reference_wrapper?"
+linktitle: "Контейнер ссылок в C++"
 title: "Контейнер ссылок в C++ или зачем нужен std::reference_wrapper?"
 publishDate: 2014-11-24T22:46:00+03:00
 date: 2014-11-24T22:46:00+03:00
