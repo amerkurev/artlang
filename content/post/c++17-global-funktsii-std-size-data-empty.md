@@ -1,6 +1,6 @@
 ---
 author: "Andrey Merkurev"
-linktitle: "В C++17 могут появиться новые глобальные функции: std::size, std::data и std::empty"
+linktitle: "В C++17 могут появиться новые глобальные функции: std::size, std::data и ..."
 title: "В C++17 могут появиться новые глобальные функции: std::size, std::data и std::empty"
 publishDate: 2015-01-23T21:58:00+03:00
 date: 2015-01-23T21:58:00+03:00

@@ -9,7 +9,7 @@ menu = "main"
 <h3 style="text-align: center;">Hi, my name is Andrey. This Is My Blog</h3>
 
 <p style="text-align: center;">
-I'm a Senior Software Engineer (C++/Python). I reside in Moscow.<br>
+I'm a Senior Software Engineer (C++/Python). I live in Moscow.<br>
 In my free time I write articles on programming.
 <br>
 <br>
