@@ -73,6 +73,12 @@ server {
     }
     error_page 404 /404.html;
 
+    # Google Verify
+    location = /google7b7dab041efcc6fd.html {
+        rewrite ^/(.*)  $1;
+        return 200 "google-site-verification: $uri";
+    }
+
     # SSL config generator
     # https://mozilla.github.io/server-side-tls/ssl-config-generator/
     # https://www.digitalocean.com/community/tutorials/how-to-create-an-ssl-certificate-on-nginx-for-ubuntu-14-04
