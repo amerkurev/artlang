@@ -14,4 +14,9 @@
 	{{ if .Site.Params.enableRSS }}
 		<a class="cta" href="{{ .Site.RSSLink }}">{{ .Site.Params.subscribe | default "Subscribe" }}</a>
 	{{ end }}
+
+	{{ if .Site.Params.whatToWatch }}
+		<a class="cta" href id='what-to-watch-link'>Отдохни!</a>
+		<div style="display: none" id="what_to_watch"></div>
+	{{ end }}
 </nav>
