@@ -15,7 +15,8 @@ googleAnalytics = ""
 	name = "Artlang"
 	description = "Artlang: Programming Blog. Articles, projects, about, contacts"
 	bio = "Programming Blog"
-	enableRSS = true
+	# enableRSS = true
+    enableRSS = false
 	gitHub = "https://github.com/amerkurev/artlang"
 
 	# Integrate Javascript files or stylesheets by adding the url to the external assets or by
