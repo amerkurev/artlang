@@ -3,7 +3,7 @@ baseurl = "http://artlang.net/"
 languageCode = "ru-ru"
 title = "Artlang: Programming Blog"
 theme = "cactus"
-paginate = 4
+paginate = 10
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""

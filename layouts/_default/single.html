@@ -19,27 +19,7 @@
         {{ .Content }}
     </section>
 </article>
-
-<footer id="post-meta" class="clearfix">
-    {{ with .Site.Params.twitter }}<a href="https://twitter.com/{{ . }}">{{ end }}
-    <img class="avatar" src="{{ "images/avatar.png" | absURL }}">
-    <div>
-        <span class="dark">{{ .Site.Params.name }}</span>
-        <span>{{ .Site.Params.aboutAuthor }}</span>
-    </div>
-    {{ with .Site.Params.twitter }}</a>{{ end }}
-    <section id="sharing">
-        {{ partial "share.html" . }}
-    </section>
-    <!--Newsbot.press-->
-    <br><br>
-    <hr/>
-    <a href="https://newsbot.press"><img class="avatar" src="{{ "images/newsbot-1.png" | absURL }}"></a>    
-    <div>
-        <span class="dark"><a href="https://newsbot.press/it/">Новостной робот / IT</a></span>
-        <span>Новостной агрегатор с искусственным интеллектом. Новости IT без рекламы!<br/>Поддержите мой проект, подписывайтесь на Telegram-канал <a href="https://t.me/newsbotpress_it">@newsbotpress_it</a></span>
-    </div>
-</footer>
+<hr/>
 
 {{ template "_internal/disqus.html" . }}
 
